@@ -1,42 +1,82 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.wrapper {
+    font-family: "Aleo";
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-top {
+    background-color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 33px;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 5px 10px 25px 10px;
+}
+
+.consultation {
+    margin: 0;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.mobile {
+    color: #ffffff;
+}
+
+.img-top {
+    width: 100%;
+}
+
+.orange-box {
+    padding: 15px;
+    text-align: left;
+    background-color: #f0911a;
+}
+
+.section-middle {
+    background-color: #ffffff;
 }
 
 .card {
-  padding: 2em;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e2e2;
+    margin: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.section-bottom {
+    background-color: #eaeaea;
+    padding: 10px;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+
+span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
 }
