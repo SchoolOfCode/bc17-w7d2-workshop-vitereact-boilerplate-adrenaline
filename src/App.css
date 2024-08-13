@@ -6,19 +6,9 @@
     flex-direction: column;
 }
 
-header {
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: left;
-}
 
 .section-top {
     background-color: #ffffff;
-}
-
-h1 {
-    margin: 0;
-    font-size: 50px;
 }
 
 h2 {
@@ -27,25 +17,7 @@ h2 {
     padding: 5px 10px 25px 10px;
 }
 
-.consultation {
-    margin: 0;
-    font-size: 27px;
-    font-weight: bold;
-}
 
-.mobile {
-    color: #ffffff;
-}
-
-.img-top {
-    width: 100%;
-}
-
-.orange-box {
-    padding: 15px;
-    text-align: left;
-    background-color: #f0911a;
-}
 
 .section-middle {
     background-color: #ffffff;
