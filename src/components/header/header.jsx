@@ -1,7 +1,6 @@
-
 import "./header.css"
 
-export default function Header() {
-    return <header>🔥Fireplace Palace</header>;
+export default function Header({ title }) {
+    return <header> { title } </header>;
   }
   

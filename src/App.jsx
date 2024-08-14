@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <main className="wrapper">
-        <Header />
+        <Header title= "hehehe Fireplace Palace" />
 
         <section className="section-top">
           <ImgTop />
